@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+main{
+    border: 4px solid black;
+    
+}
+input{
+    
+    padding: 4px;
+    text-align: right;
+    font-size: 1.5em;
+    width: 200px;
+    border: 0;
+
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+
+
+}
+button{
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+
+button:hover{
+    filter: brightness(70%);
+}
+
+.cero{
+
+    width: 100px;
+    height: 50px;
+}
+
+.punto{
+    grid-column: 3;
+    width: 50px;
+    height: 50px;
+}
+.op{
+    background: rgb(140, 209, 255);
+    
+}
+.result{
+    background: lightgray;
+}
